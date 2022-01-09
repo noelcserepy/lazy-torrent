@@ -4,13 +4,20 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-beautifulsoup4 = "*"
-requests = "*"
-art = "*"
-tqdm = "*"
+beautifulsoup4 = "==4.10.0"
+requests = "==2.26.0"
+art = "==5.3"
+tqdm = "==4.62.3"
+altgraph = "==0.17.2"
+black = "==21.11b1"
+setuptools = "*"
 
 [dev-packages]
 black = "*"
+pyinstaller = "*"
+pytest = "==6.2.5"
+pytest-cov = "==2.12.1"
+
 
 [requires]
 python_version = "3.9"
